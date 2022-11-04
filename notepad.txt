@@ -1,0 +1,8 @@
+To generate allure report
+cd s>allure serve allure-results
+
+works fine with parallel execution
+supported by jenkins
+
+
+to ignore irrelavent files use gitignore file

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Cart Test automtion regression suite"
+	thread-count="2" parallel="tests" verbose="3">
+
+	<listeners>
+		<listener
+			class-name="com.democart.qa.selenium.listeners.ExtentReportListener" />
+		<listener
+			class-name="com.democart.qa.selenium.listeners.AllureReportListener" />
+	</listeners>
+
+	<test name="Login page Test">
+		<classes>
+			<class name="com.democart.qa.selenium.tests.LoginPageTest" />
+		</classes>
+
+	</test>
+
+	<test name="Accounts page Test">
+		<classes>
+			<class name="com.democart.qa.selenium.tests.AccountsPageTest" />
+		</classes>
+
+	</test>
+
+</suite>
