@@ -6,3 +6,12 @@ supported by jenkins
 
 
 to ignore irrelavent files use gitignore file
+
+git commands
+git init
+git remote add origin https://github.com/ayeshayusufgit/26Oct2022POMSeries-.git
+git status
+git add .	(add these files to a bucket so that these files can be pushed after that)
+git status	(files in green are those which are added to the bucket)
+git commit -m "committing the code"	(commit will not push the code)
+git push origin master	(pushing the code in the master branch of the remote repository of github)
