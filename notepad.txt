@@ -9,6 +9,7 @@ to ignore irrelavent files use gitignore file
 
 
 git commands
+Create a new repo at the github
 Add the .gitignore file in ur project root
 git init(after running this command .git file gets created meaning this project is a git project)
 git remote add origin https://github.com/ayeshayusufgit/26Oct2022POMSeries.git
