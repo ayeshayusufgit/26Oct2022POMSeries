@@ -7,11 +7,22 @@ supported by jenkins
 
 to ignore irrelavent files use gitignore file
 
+
 git commands
-git init
-git remote add origin https://github.com/ayeshayusufgit/26Oct2022POMSeries-.git
-git status
+Add the .gitignore file in ur project root
+git init(after running this command .git file gets created meaning this project is a git project)
+git remote add origin https://github.com/ayeshayusufgit/26Oct2022POMSeries.git
+(The above command is used to make connection of the local repo with the remote repo in github)
+git status (give the list of untracked files which needs to be pushed)
 git add .	(add these files to a bucket so that these files can be pushed after that)
-git status	(files in green are those which are added to the bucket)
-git commit -m "committing the code"	(commit will not push the code)
-git push origin master	(pushing the code in the master branch of the remote repository of github)
+git status	(files in green are those which are added to the bucket,ready to be commited)
+git commit -m "reason"	(commit will not push the code, the correct reason needs to be provided)
+git push origin master	(by default pushing the code in the master branch of the remote repository of github)
+#the code is pushed from the local->master copy to remote->mater copy
+
+Some files which are unimportant files(some unnecessary result folders like allure-result, 
+screenshots, test-output, build etc, then .class file, .jar file, .war file,pom.xml backup 
+file only java code needs to be pushed) which are not required to be pushed so these types 
+of files need to be mentioned in the .gitignore file
+ 
+ .gitignore file is a hidden file and cannot be seen in the in eclipse etc 
