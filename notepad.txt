@@ -9,7 +9,8 @@ to ignore irrelavent files use gitignore file
 
 
 git commands
-Create a new repo at the github
+=====================================================
+1.Create a new repo at the github
 Add the .gitignore file in ur project root
 git init(after running this command .git file gets created meaning this project is a git project)
 git remote add origin https://github.com/ayeshayusufgit/26Oct2022POMSeries.git
@@ -27,3 +28,59 @@ file only java code needs to be pushed) which are not required to be pushed so t
 of files need to be mentioned in the .gitignore file
  
  .gitignore file is a hidden file and cannot be seen in the in eclipse etc 
+==========================================================================
+2.A new team member joins the team:
+Get the repo url https://github.com/ayeshayusufgit/BigBazaarRestAssuredFW.git
+
+Clone the repo/project git clone https://github.com/ayeshayusufgit/BigBazaarRestAssuredFW.git
+
+Import the project in ur eclipse->using projects->existing maven project
+(once u import the project it start building)
+ 
+Start using it.
+
+git add .
+git status
+git commit -m "comment"
+git push origin master
+============================================================================
+local branching process in github(edit->commit->push]
+git branch	// to find out the branches
+From the master branch, create a new branch->git branch profilepage
+Make some changes in the profilepage branch
+git add .
+git commit -m "reason"
+git push origin profilepage //to create the branch if not there in the remote n push the code there
+Raise a pull request(PR) in github and get approval
+Merge the profilepage branch code to the master branch in github
+Master branch should reflect the changes coming from profilepage branch
+==============================================================================
+Pull Process
+A team member has added some code to remote->master
+In the local switch the branch to the master->git checkout master
+Take the latest pull from the master->git pull origin master
+Switch to the profilepage branch->git checkout profilepage
+Merge the code from master to the profilepage->git merge master
+ =============================================================================
+ A new team member joins:
+Get the repo url https://github.com/ayeshayusufgit/BigBazaarRestAssuredFW.git
+
+Clone the repo/project git clone https://github.com/ayeshayusufgit/BigBazaarRestAssuredFW.git
+
+Import the project in ur eclipse->using projects->existing maven project
+ 
+Start working on a feature in the feature branch
+git branch register
+git checkout register
+
+Make the changes in the register branch
+
+git add <filename>
+git commit -m "reason"
+git push origin register
+raise a pr in github and get the approval
+merge the register branch to the master branch in github
+master branch should reflect the changes coming from register
+ ================================================================================
+ Conflicts:
+ 
