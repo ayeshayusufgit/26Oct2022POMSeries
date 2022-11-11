@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -118,5 +119,26 @@ public class DriverFactory {
 		}
 
 		return path;
+	}
+	
+	public String getBase64Screenshot() throws IOException {
+	    String encodedBase64 = null;
+	    FileInputStream fileInputStream = null;
+	    TakesScreenshot screenshot =  ((TakesScreenshot) getDriver());
+	    File source = screenshot.getScreenshotAs(OutputType.FILE);
+	    String destination = System.getProperty("user.dir") + "\\FailedTestsScreenshots\\"+System.currentTimeMillis()+".png";
+	    File finalDestination = new File(destination);
+	    FileUtils.copyFile(source, finalDestination);
+
+	    try {
+	        fileInputStream =new FileInputStream(finalDestination);
+	        byte[] bytes =new byte[(int)finalDestination.length()];
+	        fileInputStream.read(bytes);
+	        encodedBase64 = new String(Base64.encodeBase64(bytes));
+	    }catch (FileNotFoundException e){
+	        e.printStackTrace();
+	    }
+
+	    return encodedBase64;
 	}
 }

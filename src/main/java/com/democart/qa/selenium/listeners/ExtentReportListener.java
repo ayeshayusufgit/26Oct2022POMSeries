@@ -117,7 +117,7 @@ public class ExtentReportListener extends DriverFactory implements ITestListener
 		System.out.println((result.getMethod().getMethodName() + " failed!"));
 		try {
 			test.get().fail(result.getThrowable(),
-					MediaEntityBuilder.createScreenCaptureFromPath(getScreenShot()).build());
+					MediaEntityBuilder.createScreenCaptureFromPath(getBase64Screenshot()).build());
 			// The ss is taken an a path is returned which is attached in the report in case
 			// of failures
 		} catch (IOException e) {
@@ -134,7 +134,7 @@ public class ExtentReportListener extends DriverFactory implements ITestListener
 		System.out.println((result.getMethod().getMethodName() + " skipped!"));
 		try {
 			test.get().skip(result.getThrowable(),
-					MediaEntityBuilder.createScreenCaptureFromPath(getScreenShot()).build());
+					MediaEntityBuilder.createScreenCaptureFromPath(getBase64Screenshot()).build());
 			// The ss is taken an a path is returned which is attached in the report in case
 			// of failures
 		} catch (IOException e) {
