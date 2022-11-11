@@ -106,9 +106,9 @@ public class DriverFactory {
 	 */
 	public String getScreenShot() {
 		File src = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.FILE);
-		//String path = System.getProperty("user.dir") + "/screenshots/" + System.currentTimeMillis() + ".png";
+		String path = System.getProperty("user.dir") + "/screenshots/" + System.currentTimeMillis() + ".png";
 		//String path = "./screenshots/" + System.currentTimeMillis() + ".png";
-		String path="C:\\Users\\ayesh\\automation\\26October2022POMSeries\\screenshots\\"+ System.currentTimeMillis() + ".png";
+		//String path="C:\\Users\\ayesh\\automation\\26October2022POMSeries\\screenshots\\"+ System.currentTimeMillis() + ".png";
 		System.out.println(path);
 		File dest = new File(path);
 		try {
