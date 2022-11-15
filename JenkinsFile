@@ -1,41 +1,48 @@
-pipeline{
-    agent any
-    
-    stages{
-        stage("Build"){
+pipeline { 
+agent any 
+    stages { 
+        
+        stage ('Build') { 
             steps{
-            echo("Building")
+                echo "Building the test automation for demo cart app"
+
             }
         }
-        stage("Deploy on DEV"){
-            steps{
-                echo("Dev Deployment")
+        
+        stage('Test') {
+            steps {
+                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+                    bat "mvn clean install"
+                }
             }
         }
-        stage("Deploy on QA"){
-               steps{
-                echo("QA Deployment")
-               }
+                
+     
+        stage('Publish Allure Reports') {
+           steps {
+                script {
+                    allure([
+                        includeProperties: false,
+                        jdk: '',
+                        properties: [],
+                        reportBuildPolicy: 'ALWAYS',
+                        results: [[path: '/allure-results']]
+                    ])
+                }
+            }
         }
-        stage("Regression Test"){
-               steps{
-                echo("Run Test Automation")
-               }
-        }
-        stage("Deploy on STAGE"){
-               steps{
-                echo("STAGE Deployment")
-               }
-        }
-        stage("Sanity Test"){
-               steps{
-                echo("Sanity Test on Stage")
-               }
-        }
-        stage("Deploy on PROD"){
-               steps{
-                echo("Prod Deployment")
-               }
+        
+        
+        stage('Publish Extent Report'){
+            steps{
+                     publishHTML([allowMissing: false,
+                                  alwaysLinkToLastBuild: false, 
+                                  keepAll: false, 
+                                  reportDir: 'build', 
+                                  reportFiles: 'TestExecutionReport.html', 
+                                  reportName: 'HTML Extent Report', 
+                                  reportTitles: ''])
+            }
         }
     }
-}
+ }
