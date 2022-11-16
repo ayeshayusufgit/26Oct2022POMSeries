@@ -83,4 +83,33 @@ merge the register branch to the master branch in github
 master branch should reflect the changes coming from register
  ================================================================================
  Conflicts:
+ ================================================================================
+docker commands
+docker -v => gives the docker version
+docker ps -a => gives the docker containers running
+docker images => gives the docker images
+docker pull selenium/hub
+docker pull selenium/node-chrome-debug
+docker pull selenium/node-firefox-debug
+
+docker run -d =>the container will be created from the image in detached mode
+(do not show me the logs n run in the backend) such that after the container is created the console is released
+and the next command can be executed
+
+docker run -d -p 4444:4444 --name selenium-hub -P selenium/hub
+The docker hub server container running on 4444 port number as per industry standards
+Selenium Hub running on 4444 connected to Docker on 4444, -name is used for any name
+to be provided to the container, -P is used to mention the image from which the 
+container has to be created. 
+"c81e9cfdb2f486f0e7f2e02dbcb95a3b56f8c4e2070b4ca6a86f724b60645c59" is the container id after creation
  
+To link the selenium hub with the nodes
+docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug
+is used to create a selenium chrome container and --link
+is used to link the selenium hub(called selenium-hub which is the "hub" ie the selenium grid server) 
+with the selenium chrome container nodes
+selenium/node-chrome-debug is the image name used
+
+docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug
+
+
