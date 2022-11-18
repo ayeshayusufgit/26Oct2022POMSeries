@@ -111,5 +111,9 @@ with the selenium chrome container nodes
 selenium/node-chrome-debug is the image name used
 
 docker run -d -P --link selenium-hub:hub selenium/node-firefox-debug
+=======================================================================================================
+
+
+
 
 
