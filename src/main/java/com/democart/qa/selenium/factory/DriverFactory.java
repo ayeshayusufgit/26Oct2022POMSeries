@@ -109,6 +109,7 @@ public class DriverFactory {
 	}
 
 	public void init_remoteDriver(String browserName) {
+		//on the bases of the capability the hub decides on which node the tcs have to be executed
 		if (browserName.equals("chrome")) {
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
 			try {
