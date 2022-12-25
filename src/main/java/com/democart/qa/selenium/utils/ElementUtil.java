@@ -3,6 +3,7 @@ package com.democart.qa.selenium.utils;
 import java.time.Duration;
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -17,15 +18,28 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.democart.qa.selenium.factory.DriverFactory;
+
 public class ElementUtil {
+	private static final Logger LOGGER=Logger.getLogger(ElementUtil.class);
 	private WebDriver driver;
+	private JavaScriptUtil jsUtil;
+	
 
 	public ElementUtil(WebDriver driver) {
 		this.driver = driver;
+		jsUtil=new JavaScriptUtil(this.driver);
 	}
 
 	public WebElement getElement(By locator) {
-		return driver.findElement(locator);
+		LOGGER.info("Locator is:"+locator);
+		WebElement element=driver.findElement(locator);
+		LOGGER.info("Element is:"+element.toString());
+		
+		if(DriverFactory.highlight.equals("true")) {
+			jsUtil.flash(element);
+		}
+		return element;
 	}
 
 	public List<WebElement> getElements(By locator) {
@@ -306,5 +320,10 @@ public class ElementUtil {
 
 	public String getAlertText(int timeOut) {
 		return waitForJSAlert(timeOut).getText();
+	}
+	
+	public void imp() {
+		System.out.println("Selenium Imp Method1...");
+		System.out.println("Selenium Imp Method2...");
 	}
 }

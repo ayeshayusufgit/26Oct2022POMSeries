@@ -29,7 +29,7 @@ public class BaseTest {
 		prop=df.init_prop();
 		driver=df.init_driver(prop);
 		//System.out.println(prop.getProperty("url"));
-		driver.get("https://naveenautomationlabs.com/opencart/index.php?route=account/login");
+		driver.get(prop.getProperty("url"));
 		//driver.get(prop.getProperty("url"));
 		loginPage=new LoginPage(driver);
 		forgotPasswordPage=new ForgotPasswordPage(driver);
