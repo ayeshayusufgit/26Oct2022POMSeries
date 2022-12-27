@@ -967,3 +967,215 @@
 26 Dec 2022 22:52:05,607 TestNG-tests-2 - Taking Screenshot.....
 26 Dec 2022 22:52:05,654 TestNG-tests-1 - Taking Screenshot.....
 26 Dec 2022 22:52:05,654 TestNG-tests-2 - Taking Screenshot.....
+26 Dec 2022 22:55:28,137 TestNG-tests-2 - Intializing Properties file......
+26 Dec 2022 22:55:28,137 TestNG-tests-1 - Intializing Properties file......
+26 Dec 2022 22:55:28,142 TestNG-tests-2 - Browser Name is:firefox
+26 Dec 2022 22:55:28,142 TestNG-tests-1 - Browser Name is:firefox
+26 Dec 2022 22:55:28,142 TestNG-tests-2 - Launching Firefox......
+26 Dec 2022 22:55:28,142 TestNG-tests-1 - Launching Firefox......
+26 Dec 2022 22:55:31,706 TestNG-tests-2 - Taking Screenshot.....
+26 Dec 2022 22:55:31,707 TestNG-tests-2 - Taking Screenshot.....
+26 Dec 2022 22:55:31,707 TestNG-tests-1 - Taking Screenshot.....
+26 Dec 2022 22:55:31,707 TestNG-tests-1 - Taking Screenshot.....
+26 Dec 2022 23:03:30,947 TestNG-tests-2 - Intializing Properties file......
+26 Dec 2022 23:03:30,947 TestNG-tests-1 - Intializing Properties file......
+26 Dec 2022 23:03:30,947 TestNG-tests-1 - Browser Name is:firefox
+26 Dec 2022 23:03:30,947 TestNG-tests-2 - Browser Name is:firefox
+26 Dec 2022 23:03:30,947 TestNG-tests-2 - Launching Firefox......
+26 Dec 2022 23:03:30,947 TestNG-tests-1 - Launching Firefox......
+26 Dec 2022 23:03:40,833 TestNG-tests-2 - Locator is:By.id: input-email
+26 Dec 2022 23:03:40,916 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> id: input-email]
+26 Dec 2022 23:03:45,399 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:03:45,450 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:03:46,895 TestNG-tests-2 - Locator is:By.id: input-password
+26 Dec 2022 23:03:46,955 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> id: input-password]
+26 Dec 2022 23:03:48,903 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:03:48,973 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:03:50,382 TestNG-tests-2 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:03:50,446 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:03:52,444 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:03:52,496 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:03:56,408 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:03:56,457 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:03:59,670 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+26 Dec 2022 23:03:59,732 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search input]
+26 Dec 2022 23:03:59,814 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:03:59,869 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:04:03,195 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+26 Dec 2022 23:04:03,246 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search button]
+26 Dec 2022 23:04:03,368 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:04:03,415 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:04:07,257 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+26 Dec 2022 23:04:07,309 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search input]
+26 Dec 2022 23:04:07,311 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:04:07,362 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:04:10,488 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+26 Dec 2022 23:04:10,540 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search button]
+26 Dec 2022 23:04:10,697 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:04:10,787 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:04:14,366 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:04:14,412 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:04:14,511 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+26 Dec 2022 23:04:14,566 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search input]
+26 Dec 2022 23:04:18,020 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+26 Dec 2022 23:04:18,071 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search button]
+26 Dec 2022 23:04:18,210 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:04:18,245 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:04:21,588 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:04:21,610 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+26 Dec 2022 23:04:21,636 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:04:21,654 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search input]
+26 Dec 2022 23:04:24,995 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:04:25,017 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+26 Dec 2022 23:04:25,036 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:04:25,061 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search button]
+26 Dec 2022 23:04:28,779 TestNG-tests-2 - Taking Screenshot.....
+26 Dec 2022 23:04:29,140 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:04:29,180 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:04:29,558 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+26 Dec 2022 23:04:29,593 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search input]
+26 Dec 2022 23:04:32,744 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:04:32,792 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:04:33,229 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+26 Dec 2022 23:04:33,279 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search button]
+26 Dec 2022 23:04:36,430 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:04:36,471 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:04:37,149 TestNG-tests-2 - Taking Screenshot.....
+26 Dec 2022 23:04:38,002 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+26 Dec 2022 23:04:38,045 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search input]
+26 Dec 2022 23:04:40,456 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:04:40,502 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:04:41,597 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+26 Dec 2022 23:04:41,643 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (7d8c13c1-c35a-4452-9c21-7fcd4f6fcafe)] -> css selector: div#search button]
+26 Dec 2022 23:04:44,252 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:04:44,325 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:04:45,795 TestNG-tests-2 - Taking Screenshot.....
+26 Dec 2022 23:04:47,184 TestNG-tests-2 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,184 TestNG-tests-2 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+26 Dec 2022 23:04:47,184 TestNG-tests-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+26 Dec 2022 23:04:47,184 TestNG-tests-2 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+26 Dec 2022 23:04:47,645 TestNG-tests-2 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,645 TestNG-tests-2 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - TemplateLoader.findTemplateSource("head.ftl"): Found
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+26 Dec 2022 23:04:47,646 TestNG-tests-2 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+26 Dec 2022 23:04:47,673 TestNG-tests-2 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,673 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+26 Dec 2022 23:04:47,673 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+26 Dec 2022 23:04:47,673 TestNG-tests-2 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+26 Dec 2022 23:04:47,690 TestNG-tests-2 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,690 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+26 Dec 2022 23:04:47,690 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+26 Dec 2022 23:04:47,690 TestNG-tests-2 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+26 Dec 2022 23:04:47,716 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,717 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,728 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+26 Dec 2022 23:04:47,729 TestNG-tests-2 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+26 Dec 2022 23:04:47,744 TestNG-tests-2 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+26 Dec 2022 23:04:47,760 TestNG-tests-2 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+26 Dec 2022 23:04:47,881 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:04:47,924 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:04:51,561 TestNG-tests-1 - Locator is:By.id: input-email
+26 Dec 2022 23:04:51,601 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-email]
+26 Dec 2022 23:04:54,833 TestNG-tests-1 - Locator is:By.id: input-password
+26 Dec 2022 23:04:54,879 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> id: input-password]
+26 Dec 2022 23:04:58,128 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+26 Dec 2022 23:04:58,174 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (03141bef-9fc1-4040-8c01-ef992e229a2b)] -> xpath: //input[@value='Login']]
+26 Dec 2022 23:05:07,453 TestNG-tests-1 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,453 TestNG-tests-1 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+26 Dec 2022 23:05:07,456 TestNG-tests-1 - TemplateLoader.findTemplateSource("index.ftl"): Found
+26 Dec 2022 23:05:07,456 TestNG-tests-1 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+26 Dec 2022 23:05:07,482 TestNG-tests-1 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,483 TestNG-tests-1 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+26 Dec 2022 23:05:07,484 TestNG-tests-1 - TemplateLoader.findTemplateSource("head.ftl"): Found
+26 Dec 2022 23:05:07,484 TestNG-tests-1 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+26 Dec 2022 23:05:07,489 TestNG-tests-1 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,490 TestNG-tests-1 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+26 Dec 2022 23:05:07,491 TestNG-tests-1 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+26 Dec 2022 23:05:07,491 TestNG-tests-1 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+26 Dec 2022 23:05:07,499 TestNG-tests-1 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,500 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+26 Dec 2022 23:05:07,501 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+26 Dec 2022 23:05:07,501 TestNG-tests-1 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+26 Dec 2022 23:05:07,523 TestNG-tests-1 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,524 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+26 Dec 2022 23:05:07,525 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+26 Dec 2022 23:05:07,525 TestNG-tests-1 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+26 Dec 2022 23:05:07,540 TestNG-tests-1 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,541 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+26 Dec 2022 23:05:07,542 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+26 Dec 2022 23:05:07,542 TestNG-tests-1 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+26 Dec 2022 23:05:07,561 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,567 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,567 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,571 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,571 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,571 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,574 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,574 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,574 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,574 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,574 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,574 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,578 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,578 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,579 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,580 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,580 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+26 Dec 2022 23:05:07,581 TestNG-tests-1 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,582 TestNG-tests-1 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+26 Dec 2022 23:05:07,582 TestNG-tests-1 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+26 Dec 2022 23:05:07,582 TestNG-tests-1 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+26 Dec 2022 23:05:07,591 TestNG-tests-1 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,591 TestNG-tests-1 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+26 Dec 2022 23:05:07,591 TestNG-tests-1 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+26 Dec 2022 23:05:07,591 TestNG-tests-1 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+26 Dec 2022 23:05:07,596 TestNG-tests-1 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,596 TestNG-tests-1 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+26 Dec 2022 23:05:07,596 TestNG-tests-1 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+26 Dec 2022 23:05:07,596 TestNG-tests-1 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+26 Dec 2022 23:05:07,596 TestNG-tests-1 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,596 TestNG-tests-1 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+26 Dec 2022 23:05:07,604 TestNG-tests-1 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+26 Dec 2022 23:05:07,604 TestNG-tests-1 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+26 Dec 2022 23:05:07,605 TestNG-tests-1 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+26 Dec 2022 23:05:07,605 TestNG-tests-1 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+26 Dec 2022 23:05:07,605 TestNG-tests-1 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+26 Dec 2022 23:05:07,605 TestNG-tests-1 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
