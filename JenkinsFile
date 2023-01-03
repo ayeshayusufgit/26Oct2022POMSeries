@@ -1,48 +1,41 @@
-pipeline { 
-agent any 
-    stages { 
-        
-        stage ('Build') { 
+pipeline{
+    agent any
+    
+    stages{
+        stage("Build"){
             steps{
-                echo "Building the test automation for demo cart app"
-
+            echo("Building")
             }
         }
-        
-        stage('Test') {
-            steps {
-                catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-                    bat "mvn clean install"
-                }
-            }
-        }
-                
-     
-        stage('Publish Allure Reports') {
-           steps {
-                script {
-                    allure([
-                        includeProperties: false,
-                        jdk: '',
-                        properties: [],
-                        reportBuildPolicy: 'ALWAYS',
-                        results: [[path: '/allure-results']]
-                    ])
-                }
-            }
-        }
-        
-        
-        stage('Publish Extent Report'){
+        stage("Deploy DEV"){
             steps{
-                     publishHTML([allowMissing: false,
-                                  alwaysLinkToLastBuild: false, 
-                                  keepAll: false, 
-                                  reportDir: 'build', 
-                                  reportFiles: 'TestExecutionReport.html', 
-                                  reportName: 'HTML Extent Report', 
-                                  reportTitles: ''])
+            echo("Deploying in DEV")
+            }
+        }
+        stage("Deploy in QA"){
+            steps{
+            echo("Deploying in QA")
+            }
+        }
+        stage("Regression Test"){
+            steps{
+            echo("Run Test Automation: Regression on QA Environment")
+            }
+        }
+        stage("Deploy in Stage"){
+            steps{
+            echo("Deploying in Stage")
+            }
+        }
+        stage("Sanity Test"){
+            steps{
+            echo("Run Test Automation: Sanity on Stage Environment")
+            }
+        }
+        stage("Deploy in Prod"){
+            steps{
+            echo("Deploying in Production")
             }
         }
     }
- }
+}
