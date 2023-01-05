@@ -27,7 +27,6 @@ public class AccountsPageTest extends BaseTest {
 		accountsPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
-	//This is the demo comment 
 	@Description("Test to verify the Accounts Page title....Hello")
 	@Severity(SeverityLevel.MINOR)
 	@Test(priority = 1)
