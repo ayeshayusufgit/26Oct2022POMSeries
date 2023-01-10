@@ -9,7 +9,7 @@ public class Constants {
 	
 	
 	public static final int ACCOUNT_SECTIONS_COUNT = 4;
-	public static final int FORGOTTEN_PWD_LINK_COUNT = 2;
+	public static final int FORGOTTEN_PWD_LINK_COUNT = 3;
 	public static final String LOGIN_PAGE_TITLE = "Account Login";
 	public static final String FORGOTTEN_PWD_VALID_EMAIL = "ayesha.yusuf@gmail.com";
 	public static final String LOGIN_PAGE_SUCCESS_MESSAGE = "An email with a confirmation link has been sent your email address.";
