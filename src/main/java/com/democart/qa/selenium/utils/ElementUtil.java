@@ -322,8 +322,9 @@ public class ElementUtil {
 		return waitForJSAlert(timeOut).getText();
 	}
 	
-	public void imp() {
+	public void imp_v3() {
 		System.out.println("Selenium Imp Method1...");
 		System.out.println("Selenium Imp Method2...");
+		System.out.println("Selenium Imp Method3...");
 	}
 }

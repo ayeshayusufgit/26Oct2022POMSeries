@@ -7,6 +7,7 @@ public class Constants {
 
 	//The list of all the constants used in the POM FW
 	
+	
 	public static final int ACCOUNT_SECTIONS_COUNT = 4;
 	public static final int FORGOTTEN_PWD_LINK_COUNT = 2;
 	public static final String LOGIN_PAGE_TITLE = "Account Login";

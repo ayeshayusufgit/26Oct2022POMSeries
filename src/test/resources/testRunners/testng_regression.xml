@@ -9,6 +9,8 @@
 			class-name="com.democart.qa.selenium.listeners.ExtentReportListener" />
 		<listener
 			class-name="com.democart.qa.selenium.listeners.AllureReportListener" />
+		<listener
+			class-name="com.democart.qa.selenium.listeners.TesultReportListener" />
 	</listeners>
 
 	<test name="Login page Test">

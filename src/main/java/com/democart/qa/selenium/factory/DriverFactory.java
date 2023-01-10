@@ -36,6 +36,7 @@ public class DriverFactory {
 	public Properties prop;
 	public static String highlight;
 	ProfileManager profileManager;
+	
 
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
 	// Every thread has the local copy of the WebDriver, which helps to generate
@@ -202,7 +203,6 @@ public class DriverFactory {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-
 		return path;
 	}
 
@@ -224,7 +224,6 @@ public class DriverFactory {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-
 		return encodedBase64;
 	}
 }

@@ -7,7 +7,7 @@
 
 	<groupId>26October2020POMSeries</groupId>
 	<artifactId>26October2020POMSeries</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.7-SNAPSHOT</version>
 
 	<name>26October2020POMSeries</name>
 	<!-- FIXME change it to the project's website -->
@@ -19,7 +19,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<aspectj.version>1.9.5</aspectj.version>
 	</properties>
-	
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>maven-snapshots</id>
@@ -56,7 +56,9 @@
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
 					</argLine>
-
+					<systemPropertyVariables>
+						<tesultsTarget>token</tesultsTarget>
+					</systemPropertyVariables>
 				</configuration>
 				<dependencies>
 					<dependency>
@@ -86,6 +88,7 @@
 					</execution>
 				</executions>
 			</plugin>
+
 		</plugins>
 	</build>
 	<dependencies>
@@ -162,6 +165,17 @@
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-deploy-plugin</artifactId>
+			<version>3.0.0</version>
+			<type>maven-plugin</type>
+		</dependency>
+		<dependency>
+			<groupId>com.tesults.testng</groupId>
+			<artifactId>tesults-testng</artifactId>
+			<version>1.0.2</version>
 		</dependency>
 	</dependencies>
 </project>
