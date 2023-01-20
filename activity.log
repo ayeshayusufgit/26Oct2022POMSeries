@@ -825,3 +825,269 @@
 09 Jan 2023 16:22:10,763 TestNG-tests-1 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
 09 Jan 2023 16:22:10,763 TestNG-tests-1 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
 09 Jan 2023 16:22:10,763 TestNG-tests-1 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+18 Jan 2023 17:36:23,014 TestNG-tests-2 - Intializing Properties file......
+18 Jan 2023 17:36:23,014 TestNG-tests-1 - Intializing Properties file......
+18 Jan 2023 17:36:23,014 TestNG-tests-2 - Browser Name is:firefox
+18 Jan 2023 17:36:23,014 TestNG-tests-1 - Browser Name is:firefox
+18 Jan 2023 17:36:23,031 TestNG-tests-1 - Launching Firefox......
+18 Jan 2023 17:36:23,031 TestNG-tests-2 - Launching Firefox......
+18 Jan 2023 21:28:31,818 TestNG-tests-2 - Intializing Properties file......
+18 Jan 2023 21:28:31,818 TestNG-tests-1 - Intializing Properties file......
+18 Jan 2023 21:28:31,844 TestNG-tests-2 - Browser Name is:firefox
+18 Jan 2023 21:28:31,844 TestNG-tests-1 - Browser Name is:firefox
+18 Jan 2023 21:28:31,850 TestNG-tests-1 - Launching Firefox......
+18 Jan 2023 21:28:31,850 TestNG-tests-2 - Launching Firefox......
+18 Jan 2023 21:30:02,329 TestNG-tests-2 - Intializing Properties file......
+18 Jan 2023 21:30:02,329 TestNG-tests-1 - Intializing Properties file......
+18 Jan 2023 21:30:02,329 TestNG-tests-2 - Browser Name is:firefox
+18 Jan 2023 21:30:02,329 TestNG-tests-1 - Browser Name is:firefox
+18 Jan 2023 21:30:02,329 TestNG-tests-1 - Launching Firefox......
+18 Jan 2023 21:30:02,329 TestNG-tests-2 - Launching Firefox......
+18 Jan 2023 21:30:17,152 TestNG-tests-2 - Locator is:By.id: input-email
+18 Jan 2023 21:30:17,265 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> id: input-email]
+18 Jan 2023 21:30:17,451 TestNG-tests-2 - Locator is:By.id: input-password
+18 Jan 2023 21:30:17,861 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> id: input-password]
+18 Jan 2023 21:30:18,017 TestNG-tests-2 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:18,057 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:18,549 TestNG-tests-1 - Taking Screenshot.....
+18 Jan 2023 21:30:19,781 TestNG-tests-1 - Taking Screenshot.....
+18 Jan 2023 21:30:24,134 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:24,193 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:24,644 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:24,691 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+18 Jan 2023 21:30:24,698 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:24,738 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search input]
+18 Jan 2023 21:30:24,794 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:24,849 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:24,873 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+18 Jan 2023 21:30:24,922 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search button]
+18 Jan 2023 21:30:25,550 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+18 Jan 2023 21:30:25,608 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search input]
+18 Jan 2023 21:30:25,632 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:25,682 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:25,744 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+18 Jan 2023 21:30:25,763 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:25,812 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:25,812 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search button]
+18 Jan 2023 21:30:25,958 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:26,007 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:26,388 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+18 Jan 2023 21:30:26,429 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search input]
+18 Jan 2023 21:30:26,582 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+18 Jan 2023 21:30:26,654 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search button]
+18 Jan 2023 21:30:26,691 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:26,776 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:26,961 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:27,219 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:27,379 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:27,415 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+18 Jan 2023 21:30:27,569 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search input]
+18 Jan 2023 21:30:27,569 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:27,985 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+18 Jan 2023 21:30:28,031 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search button]
+18 Jan 2023 21:30:28,229 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:28,295 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:28,519 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:28,619 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:28,619 TestNG-tests-2 - Taking Screenshot.....
+18 Jan 2023 21:30:29,071 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:29,426 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:30,367 TestNG-tests-2 - Taking Screenshot.....
+18 Jan 2023 21:30:30,388 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:30,657 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:30,785 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:30,832 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:30,947 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:30,989 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:31,338 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+18 Jan 2023 21:30:31,398 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search input]
+18 Jan 2023 21:30:31,514 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+18 Jan 2023 21:30:31,555 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search button]
+18 Jan 2023 21:30:31,563 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:31,617 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:31,756 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:31,797 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:31,931 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:31,998 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:32,009 TestNG-tests-2 - Taking Screenshot.....
+18 Jan 2023 21:30:32,369 TestNG-tests-2 - Taking Screenshot.....
+18 Jan 2023 21:30:32,564 TestNG-tests-1 - Locator is:By.id: input-email
+18 Jan 2023 21:30:32,619 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-email]
+18 Jan 2023 21:30:32,766 TestNG-tests-1 - Locator is:By.id: input-password
+18 Jan 2023 21:30:32,825 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> id: input-password]
+18 Jan 2023 21:30:33,010 TestNG-tests-1 - Locator is:By.xpath: //input[@value='Login']
+18 Jan 2023 21:30:33,050 TestNG-tests-1 - Element is:[[RemoteWebDriver: firefox on LINUX (0655ca02-c4bc-4644-9e01-87e7701f11df)] -> xpath: //input[@value='Login']]
+18 Jan 2023 21:30:33,262 TestNG-tests-2 - Locator is:By.cssSelector: div#search input
+18 Jan 2023 21:30:33,317 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search input]
+18 Jan 2023 21:30:33,471 TestNG-tests-2 - Locator is:By.cssSelector: div#search button
+18 Jan 2023 21:30:33,505 TestNG-tests-2 - Element is:[[RemoteWebDriver: firefox on LINUX (9c3cc9ab-55e6-4dcb-8204-2ee0ebc40a1a)] -> css selector: div#search button]
+18 Jan 2023 21:30:33,947 TestNG-tests-2 - Taking Screenshot.....
+18 Jan 2023 21:30:34,296 TestNG-tests-2 - Taking Screenshot.....
+18 Jan 2023 21:30:35,698 TestNG-tests-2 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:35,698 TestNG-tests-2 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+18 Jan 2023 21:30:35,714 TestNG-tests-2 - TemplateLoader.findTemplateSource("index.ftl"): Found
+18 Jan 2023 21:30:35,714 TestNG-tests-2 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+18 Jan 2023 21:30:36,647 TestNG-tests-2 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,647 TestNG-tests-2 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+18 Jan 2023 21:30:36,647 TestNG-tests-2 - TemplateLoader.findTemplateSource("head.ftl"): Found
+18 Jan 2023 21:30:36,647 TestNG-tests-2 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+18 Jan 2023 21:30:36,663 TestNG-tests-2 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,664 TestNG-tests-2 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+18 Jan 2023 21:30:36,664 TestNG-tests-2 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+18 Jan 2023 21:30:36,664 TestNG-tests-2 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+18 Jan 2023 21:30:36,679 TestNG-tests-2 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,679 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+18 Jan 2023 21:30:36,679 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+18 Jan 2023 21:30:36,679 TestNG-tests-2 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+18 Jan 2023 21:30:36,721 TestNG-tests-2 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,721 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+18 Jan 2023 21:30:36,721 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+18 Jan 2023 21:30:36,726 TestNG-tests-2 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+18 Jan 2023 21:30:36,758 TestNG-tests-2 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,758 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+18 Jan 2023 21:30:36,758 TestNG-tests-2 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+18 Jan 2023 21:30:36,758 TestNG-tests-2 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+18 Jan 2023 21:30:36,805 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,815 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,815 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,821 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,821 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,821 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,821 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,836 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,852 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,852 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,852 TestNG-tests-2 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:36,852 TestNG-tests-2 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,862 TestNG-tests-2 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+18 Jan 2023 21:30:36,862 TestNG-tests-2 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+18 Jan 2023 21:30:36,862 TestNG-tests-2 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+18 Jan 2023 21:30:36,883 TestNG-tests-2 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,883 TestNG-tests-2 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+18 Jan 2023 21:30:36,883 TestNG-tests-2 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+18 Jan 2023 21:30:36,883 TestNG-tests-2 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+18 Jan 2023 21:30:36,900 TestNG-tests-2 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,900 TestNG-tests-2 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+18 Jan 2023 21:30:36,900 TestNG-tests-2 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+18 Jan 2023 21:30:36,900 TestNG-tests-2 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+18 Jan 2023 21:30:36,927 TestNG-tests-2 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,927 TestNG-tests-2 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+18 Jan 2023 21:30:36,927 TestNG-tests-2 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+18 Jan 2023 21:30:36,927 TestNG-tests-2 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+18 Jan 2023 21:30:36,947 TestNG-tests-2 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:36,947 TestNG-tests-2 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+18 Jan 2023 21:30:36,947 TestNG-tests-2 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+18 Jan 2023 21:30:36,947 TestNG-tests-2 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+18 Jan 2023 21:30:39,398 TestNG-tests-1 - Couldn't find template in cache for "index.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,414 TestNG-tests-1 - TemplateLoader.findTemplateSource("index_en.ftl"): Not found
+18 Jan 2023 21:30:39,424 TestNG-tests-1 - TemplateLoader.findTemplateSource("index.ftl"): Found
+18 Jan 2023 21:30:39,467 TestNG-tests-1 - Loading template for "index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/index.ftl"
+18 Jan 2023 21:30:39,538 TestNG-tests-1 - Couldn't find template in cache for "head.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,538 TestNG-tests-1 - TemplateLoader.findTemplateSource("head_en.ftl"): Not found
+18 Jan 2023 21:30:39,538 TestNG-tests-1 - TemplateLoader.findTemplateSource("head.ftl"): Found
+18 Jan 2023 21:30:39,538 TestNG-tests-1 - Loading template for "head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/head.ftl"
+18 Jan 2023 21:30:39,547 TestNG-tests-1 - Couldn't find template in cache for "nav.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,547 TestNG-tests-1 - TemplateLoader.findTemplateSource("nav_en.ftl"): Not found
+18 Jan 2023 21:30:39,547 TestNG-tests-1 - TemplateLoader.findTemplateSource("nav.ftl"): Found
+18 Jan 2023 21:30:39,547 TestNG-tests-1 - Loading template for "nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/nav.ftl"
+18 Jan 2023 21:30:39,566 TestNG-tests-1 - Couldn't find template in cache for "test-view/test-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,566 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view_en.ftl"): Not found
+18 Jan 2023 21:30:39,566 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view.ftl"): Found
+18 Jan 2023 21:30:39,566 TestNG-tests-1 - Loading template for "test-view/test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view.ftl"
+18 Jan 2023 21:30:39,582 TestNG-tests-1 - Couldn't find template in cache for "test-view/test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,582 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view-charts_en.ftl"): Not found
+18 Jan 2023 21:30:39,582 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/test-view-charts.ftl"): Found
+18 Jan 2023 21:30:39,582 TestNG-tests-1 - Loading template for "test-view/test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/test-view-charts.ftl"
+18 Jan 2023 21:30:39,599 TestNG-tests-1 - Couldn't find template in cache for "test-view/standard.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,599 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/standard_en.ftl"): Not found
+18 Jan 2023 21:30:39,599 TestNG-tests-1 - TemplateLoader.findTemplateSource("test-view/standard.ftl"): Found
+18 Jan 2023 21:30:39,599 TestNG-tests-1 - Loading template for "test-view/standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/test-view/standard.ftl"
+18 Jan 2023 21:30:39,627 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,630 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,638 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,638 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,648 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,648 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,648 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,648 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,648 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,658 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,674 TestNG-tests-1 - "test-view/standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+18 Jan 2023 21:30:39,677 TestNG-tests-1 - Couldn't find template in cache for "category-view/category-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,677 TestNG-tests-1 - TemplateLoader.findTemplateSource("category-view/category-view_en.ftl"): Not found
+18 Jan 2023 21:30:39,677 TestNG-tests-1 - TemplateLoader.findTemplateSource("category-view/category-view.ftl"): Found
+18 Jan 2023 21:30:39,677 TestNG-tests-1 - Loading template for "category-view/category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/category-view/category-view.ftl"
+18 Jan 2023 21:30:39,697 TestNG-tests-1 - Couldn't find template in cache for "author-view/author-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,697 TestNG-tests-1 - TemplateLoader.findTemplateSource("author-view/author-view_en.ftl"): Not found
+18 Jan 2023 21:30:39,697 TestNG-tests-1 - TemplateLoader.findTemplateSource("author-view/author-view.ftl"): Found
+18 Jan 2023 21:30:39,697 TestNG-tests-1 - Loading template for "author-view/author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/author-view/author-view.ftl"
+18 Jan 2023 21:30:39,715 TestNG-tests-1 - Couldn't find template in cache for "exception-view/exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,715 TestNG-tests-1 - TemplateLoader.findTemplateSource("exception-view/exception-view_en.ftl"): Not found
+18 Jan 2023 21:30:39,715 TestNG-tests-1 - TemplateLoader.findTemplateSource("exception-view/exception-view.ftl"): Found
+18 Jan 2023 21:30:39,715 TestNG-tests-1 - Loading template for "exception-view/exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/exception-view/exception-view.ftl"
+18 Jan 2023 21:30:39,749 TestNG-tests-1 - Couldn't find template in cache for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,749 TestNG-tests-1 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view_en.ftl"): Not found
+18 Jan 2023 21:30:39,749 TestNG-tests-1 - TemplateLoader.findTemplateSource("dashboard-view/dashboard-view.ftl"): Found
+18 Jan 2023 21:30:39,749 TestNG-tests-1 - Loading template for "dashboard-view/dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/dashboard-view/dashboard-view.ftl"
+18 Jan 2023 21:30:39,765 TestNG-tests-1 - Couldn't find template in cache for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+18 Jan 2023 21:30:39,765 TestNG-tests-1 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
+18 Jan 2023 21:30:39,765 TestNG-tests-1 - TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
+18 Jan 2023 21:30:39,765 TestNG-tests-1 - Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ayesh/.m2/repository/com/aventstack/extentreports/3.1.5/extentreports-3.1.5.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+20 Jan 2023 22:04:11,218 TestNG-tests-1 - Intializing Properties file......
+20 Jan 2023 22:04:11,218 TestNG-tests-2 - Intializing Properties file......
+20 Jan 2023 22:04:11,218 TestNG-tests-1 - Browser Name is:firefox
+20 Jan 2023 22:04:11,218 TestNG-tests-2 - Browser Name is:firefox
+20 Jan 2023 22:04:11,218 TestNG-tests-1 - Launching Firefox......
+20 Jan 2023 22:04:11,218 TestNG-tests-2 - Launching Firefox......
+20 Jan 2023 22:08:57,594 TestNG-tests-1 - Intializing Properties file......
+20 Jan 2023 22:08:57,594 TestNG-tests-2 - Intializing Properties file......
+20 Jan 2023 22:08:57,594 TestNG-tests-1 - Browser Name is:firefox
+20 Jan 2023 22:08:57,594 TestNG-tests-2 - Browser Name is:firefox
+20 Jan 2023 22:08:57,594 TestNG-tests-1 - Launching Firefox......
+20 Jan 2023 22:08:57,594 TestNG-tests-2 - Launching Firefox......
+20 Jan 2023 22:12:39,315 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:12:39,315 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:12:39,318 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:12:39,318 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:14:09,118 TestNG-tests-1 - Intializing Properties file......
+20 Jan 2023 22:14:09,118 TestNG-tests-2 - Intializing Properties file......
+20 Jan 2023 22:14:09,118 TestNG-tests-1 - Browser Name is:firefox
+20 Jan 2023 22:14:09,118 TestNG-tests-2 - Browser Name is:firefox
+20 Jan 2023 22:14:09,126 TestNG-tests-1 - Launching Firefox......
+20 Jan 2023 22:14:09,126 TestNG-tests-2 - Launching Firefox......
+20 Jan 2023 22:17:41,016 TestNG-tests-1 - Intializing Properties file......
+20 Jan 2023 22:17:41,016 TestNG-tests-2 - Intializing Properties file......
+20 Jan 2023 22:17:41,016 TestNG-tests-1 - Browser Name is:firefox
+20 Jan 2023 22:17:41,016 TestNG-tests-2 - Browser Name is:firefox
+20 Jan 2023 22:17:41,016 TestNG-tests-1 - Launching Firefox......
+20 Jan 2023 22:17:41,016 TestNG-tests-2 - Launching Firefox......
+20 Jan 2023 22:19:11,693 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:19:11,693 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:19:11,729 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:19:11,729 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:22:43,253 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:22:43,259 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:22:43,259 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:22:43,259 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:23:50,054 TestNG-tests-1 - Intializing Properties file......
+20 Jan 2023 22:23:50,054 TestNG-tests-2 - Intializing Properties file......
+20 Jan 2023 22:23:50,054 TestNG-tests-2 - Browser Name is:chrome
+20 Jan 2023 22:23:50,054 TestNG-tests-1 - Browser Name is:chrome
+20 Jan 2023 22:23:50,058 TestNG-tests-2 - Launching Chrome......
+20 Jan 2023 22:23:50,058 TestNG-tests-1 - Launching Chrome......
+20 Jan 2023 22:28:55,813 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:28:55,813 TestNG-tests-1 - Taking Screenshot.....
+20 Jan 2023 22:28:55,915 TestNG-tests-2 - Taking Screenshot.....
+20 Jan 2023 22:28:55,915 TestNG-tests-1 - Taking Screenshot.....

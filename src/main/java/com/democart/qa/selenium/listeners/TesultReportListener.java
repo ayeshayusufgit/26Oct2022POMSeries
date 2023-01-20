@@ -82,6 +82,7 @@ public class TesultReportListener implements ITestListener {
 
 	@Override
 	public void onFinish(ITestContext iTestContext) {
+		
 		// Map<String, Object> to hold your test results data.
 		Map<String, Object> data = new HashMap<String, Object>();
 		data.put("target",
