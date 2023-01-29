@@ -9,4 +9,12 @@ public class GitDemo {
 	public void gitPull() {
 		System.out.println("Git Pull");
 	}
+	
+	public void gitPush1() {
+		System.out.println("Git Push1");
+	}
+	
+	public void gitPull1() {
+		System.out.println("Git Pull1");
+	}
 }
