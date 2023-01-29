@@ -1,0 +1,7 @@
+package com.democart.qa.selenium.pages;
+
+import org.openqa.selenium.By;
+
+public class TestGitUtil {
+	
+}
