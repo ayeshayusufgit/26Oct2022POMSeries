@@ -1091,3 +1091,170 @@
 20 Jan 2023 22:28:55,813 TestNG-tests-1 - Taking Screenshot.....
 20 Jan 2023 22:28:55,915 TestNG-tests-2 - Taking Screenshot.....
 20 Jan 2023 22:28:55,915 TestNG-tests-1 - Taking Screenshot.....
+31 Jan 2023 12:24:05,601 main - Intializing Properties file......
+31 Jan 2023 12:24:05,617 main - Browser Name is:chrome
+31 Jan 2023 12:24:05,620 main - Launching Chrome......
+31 Jan 2023 12:24:36,440 main - Intializing Properties file......
+31 Jan 2023 12:24:36,440 main - Browser Name is:chrome
+31 Jan 2023 12:24:36,447 main - Launching Chrome......
+31 Jan 2023 12:24:41,687 main - Locator is:By.linkText: Register
+31 Jan 2023 12:24:41,734 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> link text: Register]
+31 Jan 2023 12:24:42,445 main - Locator is:By.id: input-firstname
+31 Jan 2023 12:24:42,471 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> id: input-firstname]
+31 Jan 2023 12:24:42,610 main - Locator is:By.id: input-lastname
+31 Jan 2023 12:24:42,634 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> id: input-lastname]
+31 Jan 2023 12:24:42,760 main - Locator is:By.id: input-email
+31 Jan 2023 12:24:42,784 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> id: input-email]
+31 Jan 2023 12:24:42,952 main - Locator is:By.id: input-telephone
+31 Jan 2023 12:24:42,977 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> id: input-telephone]
+31 Jan 2023 12:24:43,118 main - Locator is:By.id: input-password
+31 Jan 2023 12:24:43,135 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> id: input-password]
+31 Jan 2023 12:24:43,268 main - Locator is:By.id: input-confirm
+31 Jan 2023 12:24:43,285 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> id: input-confirm]
+31 Jan 2023 12:24:43,404 main - Locator is:By.xpath: //label[@class='radio-inline'][position()=2]/input
+31 Jan 2023 12:24:43,426 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> xpath: //label[@class='radio-inline'][position()=2]/input]
+31 Jan 2023 12:24:43,500 main - Locator is:By.name: agree
+31 Jan 2023 12:24:43,518 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> name: agree]
+31 Jan 2023 12:24:43,584 main - Locator is:By.xpath: //input[@value='Continue']
+31 Jan 2023 12:24:43,600 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> xpath: //input[@value='Continue']]
+31 Jan 2023 12:24:44,104 main - Locator is:By.cssSelector: #content h1
+31 Jan 2023 12:24:44,136 main - Element is:[[ChromeDriver: chrome on WINDOWS (f3a4238ef8df12b2bdefa142acb25380)] -> css selector: #content h1]
+31 Jan 2023 12:38:51,792 main - Intializing Properties file......
+31 Jan 2023 12:38:51,792 main - Browser Name is:chrome
+31 Jan 2023 12:38:51,804 main - Launching Chrome......
+31 Jan 2023 12:39:12,858 main - Intializing Properties file......
+31 Jan 2023 12:39:12,858 main - Browser Name is:chrome
+31 Jan 2023 12:39:12,863 main - Launching Chrome......
+31 Jan 2023 12:39:18,043 main - Locator is:By.linkText: Register
+31 Jan 2023 12:48:13,403 main - Intializing Properties file......
+31 Jan 2023 12:48:13,403 main - Browser Name is:chrome
+31 Jan 2023 12:48:13,412 main - Launching Chrome......
+31 Jan 2023 12:48:18,492 main - Locator is:By.linkText: Register
+31 Jan 2023 12:48:18,555 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> link text: Register]
+31 Jan 2023 12:48:19,336 main - Locator is:By.id: input-firstname
+31 Jan 2023 12:48:19,357 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> id: input-firstname]
+31 Jan 2023 12:48:19,505 main - Locator is:By.id: input-lastname
+31 Jan 2023 12:48:19,529 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> id: input-lastname]
+31 Jan 2023 12:48:19,658 main - Locator is:By.id: input-email
+31 Jan 2023 12:48:19,691 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> id: input-email]
+31 Jan 2023 12:48:19,898 main - Locator is:By.id: input-telephone
+31 Jan 2023 12:48:19,923 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> id: input-telephone]
+31 Jan 2023 12:48:20,044 main - Locator is:By.id: input-password
+31 Jan 2023 12:48:20,078 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> id: input-password]
+31 Jan 2023 12:48:20,219 main - Locator is:By.id: input-confirm
+31 Jan 2023 12:48:20,242 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> id: input-confirm]
+31 Jan 2023 12:48:20,379 main - Locator is:By.xpath: //label[@class='radio-inline'][position()=2]/input
+31 Jan 2023 12:48:20,396 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> xpath: //label[@class='radio-inline'][position()=2]/input]
+31 Jan 2023 12:48:20,467 main - Locator is:By.name: agree
+31 Jan 2023 12:48:20,491 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> name: agree]
+31 Jan 2023 12:48:20,565 main - Locator is:By.xpath: //input[@value='Continue']
+31 Jan 2023 12:48:20,592 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> xpath: //input[@value='Continue']]
+31 Jan 2023 12:48:21,029 main - Locator is:By.cssSelector: #content h1
+31 Jan 2023 12:48:21,054 main - Element is:[[ChromeDriver: chrome on WINDOWS (139216f6e6c4e7e075c482859b9f19eb)] -> css selector: #content h1]
+31 Jan 2023 12:51:32,776 main - Intializing Properties file......
+31 Jan 2023 12:51:32,782 main - Browser Name is:chrome
+31 Jan 2023 12:51:32,792 main - Launching Chrome......
+31 Jan 2023 12:51:38,498 main - Locator is:By.linkText: Register
+31 Jan 2023 12:51:38,548 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> link text: Register]
+31 Jan 2023 12:51:39,318 main - Locator is:By.id: input-firstname
+31 Jan 2023 12:51:39,347 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> id: input-firstname]
+31 Jan 2023 12:51:39,500 main - Locator is:By.id: input-lastname
+31 Jan 2023 12:51:39,517 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> id: input-lastname]
+31 Jan 2023 12:51:39,655 main - Locator is:By.id: input-email
+31 Jan 2023 12:51:39,678 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> id: input-email]
+31 Jan 2023 12:51:39,874 main - Locator is:By.id: input-telephone
+31 Jan 2023 12:51:39,908 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> id: input-telephone]
+31 Jan 2023 12:51:40,046 main - Locator is:By.id: input-password
+31 Jan 2023 12:51:40,071 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> id: input-password]
+31 Jan 2023 12:51:40,209 main - Locator is:By.id: input-confirm
+31 Jan 2023 12:51:40,232 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> id: input-confirm]
+31 Jan 2023 12:51:40,366 main - Locator is:By.xpath: //label[@class='radio-inline'][position()=2]/input
+31 Jan 2023 12:51:40,385 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> xpath: //label[@class='radio-inline'][position()=2]/input]
+31 Jan 2023 12:51:40,458 main - Locator is:By.name: agree
+31 Jan 2023 12:51:40,474 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> name: agree]
+31 Jan 2023 12:51:40,541 main - Locator is:By.xpath: //input[@value='Continue']
+31 Jan 2023 12:51:40,566 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> xpath: //input[@value='Continue']]
+31 Jan 2023 12:51:42,633 main - Locator is:By.cssSelector: #content h1
+31 Jan 2023 12:51:42,666 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> css selector: #content h1]
+31 Jan 2023 12:51:42,813 main - Locator is:By.linkText: Logout
+31 Jan 2023 12:51:42,864 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> link text: Logout]
+31 Jan 2023 12:51:44,115 main - Locator is:By.linkText: Register
+31 Jan 2023 12:51:44,152 main - Element is:[[ChromeDriver: chrome on WINDOWS (36594fd993e33aee42d68a99e25a5f14)] -> link text: Register]
+31 Jan 2023 13:18:29,584 main - Intializing Properties file......
+31 Jan 2023 13:18:29,584 main - Browser Name is:chrome
+31 Jan 2023 13:18:29,594 main - Launching Chrome......
+31 Jan 2023 13:18:35,653 main - Locator is:By.linkText: Register
+31 Jan 2023 13:18:35,720 main - Element is:[[ChromeDriver: chrome on WINDOWS (e86e609febf2d7fd6dcef8be35f17b36)] -> link text: Register]
+31 Jan 2023 13:21:54,230 main - Intializing Properties file......
+31 Jan 2023 13:21:54,230 main - Browser Name is:chrome
+31 Jan 2023 13:21:54,240 main - Launching Chrome......
+31 Jan 2023 13:22:00,652 main - Locator is:By.linkText: Register
+31 Jan 2023 13:22:00,699 main - Element is:[[ChromeDriver: chrome on WINDOWS (19985b60014a7539724d3d876f0ff940)] -> link text: Register]
+31 Jan 2023 13:29:14,763 main - Intializing Properties file......
+31 Jan 2023 13:29:14,763 main - Browser Name is:chrome
+31 Jan 2023 13:29:14,778 main - Launching Chrome......
+31 Jan 2023 13:29:20,710 main - Locator is:By.linkText: Register
+31 Jan 2023 13:29:20,745 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> link text: Register]
+31 Jan 2023 13:29:23,066 main - Locator is:By.id: input-firstname
+31 Jan 2023 13:29:23,115 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-firstname]
+31 Jan 2023 13:29:23,313 main - Locator is:By.id: input-lastname
+31 Jan 2023 13:29:23,345 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-lastname]
+31 Jan 2023 13:29:23,507 main - Locator is:By.id: input-email
+31 Jan 2023 13:29:23,537 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-email]
+31 Jan 2023 13:29:23,696 main - Locator is:By.id: input-telephone
+31 Jan 2023 13:29:23,723 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-telephone]
+31 Jan 2023 13:29:23,897 main - Locator is:By.id: input-password
+31 Jan 2023 13:29:23,933 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-password]
+31 Jan 2023 13:29:24,103 main - Locator is:By.id: input-confirm
+31 Jan 2023 13:29:24,146 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-confirm]
+31 Jan 2023 13:29:24,295 main - Locator is:By.xpath: //label[@class='radio-inline'][position()=1]/input
+31 Jan 2023 13:29:24,322 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> xpath: //label[@class='radio-inline'][position()=1]/input]
+31 Jan 2023 13:29:24,410 main - Locator is:By.name: agree
+31 Jan 2023 13:29:24,437 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> name: agree]
+31 Jan 2023 13:29:24,525 main - Locator is:By.xpath: //input[@value='Continue']
+31 Jan 2023 13:29:24,557 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> xpath: //input[@value='Continue']]
+31 Jan 2023 13:29:25,078 main - Locator is:By.cssSelector: #content h1
+31 Jan 2023 13:29:25,112 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> css selector: #content h1]
+31 Jan 2023 13:29:25,535 main - Locator is:By.id: input-firstname
+31 Jan 2023 13:29:25,552 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-firstname]
+31 Jan 2023 13:29:25,753 main - Locator is:By.id: input-lastname
+31 Jan 2023 13:29:25,778 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-lastname]
+31 Jan 2023 13:29:25,950 main - Locator is:By.id: input-email
+31 Jan 2023 13:29:25,989 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-email]
+31 Jan 2023 13:29:26,206 main - Locator is:By.id: input-telephone
+31 Jan 2023 13:29:26,233 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-telephone]
+31 Jan 2023 13:29:26,403 main - Locator is:By.id: input-password
+31 Jan 2023 13:29:26,435 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-password]
+31 Jan 2023 13:29:26,614 main - Locator is:By.id: input-confirm
+31 Jan 2023 13:29:26,634 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-confirm]
+31 Jan 2023 13:29:26,814 main - Locator is:By.xpath: //label[@class='radio-inline'][position()=2]/input
+31 Jan 2023 13:29:26,843 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> xpath: //label[@class='radio-inline'][position()=2]/input]
+31 Jan 2023 13:29:26,923 main - Locator is:By.name: agree
+31 Jan 2023 13:29:26,940 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> name: agree]
+31 Jan 2023 13:29:27,043 main - Locator is:By.xpath: //input[@value='Continue']
+31 Jan 2023 13:29:27,076 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> xpath: //input[@value='Continue']]
+31 Jan 2023 13:29:27,541 main - Locator is:By.cssSelector: #content h1
+31 Jan 2023 13:29:27,568 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> css selector: #content h1]
+31 Jan 2023 13:29:27,671 main - Locator is:By.id: input-firstname
+31 Jan 2023 13:29:27,702 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-firstname]
+31 Jan 2023 13:29:27,873 main - Locator is:By.id: input-lastname
+31 Jan 2023 13:29:27,891 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-lastname]
+31 Jan 2023 13:29:28,069 main - Locator is:By.id: input-email
+31 Jan 2023 13:29:28,094 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-email]
+31 Jan 2023 13:29:28,287 main - Locator is:By.id: input-telephone
+31 Jan 2023 13:29:28,319 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-telephone]
+31 Jan 2023 13:29:28,492 main - Locator is:By.id: input-password
+31 Jan 2023 13:29:28,524 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-password]
+31 Jan 2023 13:29:28,706 main - Locator is:By.id: input-confirm
+31 Jan 2023 13:29:28,730 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> id: input-confirm]
+31 Jan 2023 13:29:28,912 main - Locator is:By.xpath: //label[@class='radio-inline'][position()=1]/input
+31 Jan 2023 13:29:28,944 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> xpath: //label[@class='radio-inline'][position()=1]/input]
+31 Jan 2023 13:29:29,034 main - Locator is:By.name: agree
+31 Jan 2023 13:29:29,062 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> name: agree]
+31 Jan 2023 13:29:29,143 main - Locator is:By.xpath: //input[@value='Continue']
+31 Jan 2023 13:29:29,175 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> xpath: //input[@value='Continue']]
+31 Jan 2023 13:29:29,617 main - Locator is:By.cssSelector: #content h1
+31 Jan 2023 13:29:29,653 main - Element is:[[ChromeDriver: chrome on WINDOWS (55df836dccf7aeb7d7cc8e5527c3de21)] -> css selector: #content h1]
+08 Feb 2023 16:02:32,687 main - Intializing Properties file......
+08 Feb 2023 16:02:32,687 main - Browser Name is:chrome
+08 Feb 2023 16:02:32,701 main - Launching Chrome......

@@ -31,8 +31,8 @@ public class RegisterPage {
 		elementUtil = new ElementUtil(driver);
 	}
 
-	public boolean accountRegistration(String firstName, String lastName, String email, String telephone, String password,
-			String subscribe) {
+	public boolean accountRegistration(String firstName, String lastName, String email, String telephone,
+			String password, String subscribe) {
 		elementUtil.doSendKeys(this.firstName, firstName);
 		elementUtil.doSendKeys(this.lastName, lastName);
 		elementUtil.doSendKeys(this.email, email);
@@ -48,16 +48,38 @@ public class RegisterPage {
 
 		elementUtil.doClick(agreeCheckbox);
 		elementUtil.doClick(continueButton);
-		String message=elementUtil.waitForElementVisible(accountSuccessMessage, 10).getText();
-		
+		String message = elementUtil.waitForElementVisible(accountSuccessMessage, 10).getText();
+
 		if (message.equals(Constants.ACCOUNT_CREATION_SUCCESS_MESSAGE)) {
-			//elementUtil.doClick(continueButton);
+			// elementUtil.doClick(continueButton);
 			elementUtil.doClick(logOutLink);
 			elementUtil.doClick(registerLink);
 			return true;
 		}
 		return false;
-
 	}
 
+	public boolean accountRegistration1(String firstname, String lastName, String email, String password,String telephone,
+			String subscribe) {
+		elementUtil.doSendKeys(this.firstName, firstname);
+		elementUtil.doSendKeys(this.lastName, lastName);
+		elementUtil.doSendKeys(this.email, email);
+		elementUtil.doSendKeys(this.telephone, telephone);
+		elementUtil.doSendKeys(this.password, password);
+		elementUtil.doSendKeys(this.confirmPassword, password);
+		if (subscribe.equals("yes")) {
+			elementUtil.doClick(subscribeYes);
+		} else {
+			elementUtil.doClick(subscribeNo);
+		}
+		elementUtil.doClick(agreeCheckbox);
+		elementUtil.doClick(continueButton);
+		WebElement element = elementUtil.waitForElementVisible(accountSuccessMessage, 5000);
+		if (element.getText().equals("Your Account Has Been Created!")) {
+			elementUtil.doClick(logOutLink);
+			elementUtil.doClick(registerLink);
+			return true;
+		}
+		return false;
+	}
 }

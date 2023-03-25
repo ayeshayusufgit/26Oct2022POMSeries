@@ -22,7 +22,6 @@ public class BaseTest {
 	public AccountsPage accountsPage;
 	public RegisterPage registrationPage;
 	
-	
 	@BeforeTest
 	public void setUp() {
 		df=new DriverFactory();

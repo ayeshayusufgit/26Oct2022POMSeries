@@ -43,10 +43,10 @@ public class ExcelUtil {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return data;
 	}
-
+	
 	public static void main(String args[]) {
 		ExcelUtil.getData("registration");
 	}

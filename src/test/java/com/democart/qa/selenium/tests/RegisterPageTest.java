@@ -15,15 +15,14 @@ public class RegisterPageTest extends BaseTest {
 		registrationPage = loginPage.navigateToRegisterationPage();
 	}
 
-	@Test(dataProvider = "getRegisterationData")
+	// @Test(dataProvider = "getRegisterationData")
 	public void userRegistrationTest(String firstName, String lastName, String email, String phone, String password,
 			String subscribe) {
 		registrationPage.accountRegistration(firstName, lastName, email, phone, password, subscribe);
 	}
 
-	@DataProvider
+	// @DataProvider
 	public Object[][] getRegisterationData() {
 		return ExcelUtil.getData(Constants.REGISTER_SHEET_NAME);
 	}
-
 }

@@ -62,7 +62,7 @@ public class AccountsPage {
 		return accSectionsNameList;
 	}
 
-	@Step("")
+	@Step("Searching with searchterm:{0}")
 	public boolean doSearch(String searchTerm) {
 		elementUtil.doSendKeys(searchText, searchTerm);
 		elementUtil.doClick(searchButton);

@@ -42,7 +42,6 @@ public class LoginPageTest extends BaseTest {
 	}
 	
 	//Checking the presence of the actual error message div with the negative login cases
-	
 	@Description("Test to verify the -ve cases in login using dataprovider")
 	@Severity(SeverityLevel.NORMAL)
 	@Test(priority = 3,dataProvider ="getLoginNegativeTestData")
